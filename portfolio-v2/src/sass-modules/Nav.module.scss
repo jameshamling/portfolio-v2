@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 1em;
+    position: fixed;
+    background-color: rgba(var(--clr-primary-2), 0.3);
+    height: min-content;
+    width: 100%;
+    backdrop-filter: blur(2px);
+}
+
+.tab {
+    color: rgba(var(--clr-white), 1);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: var(--ff-sans);
+    font-weight: (var(--fw-light));
+
+    &:hover, 
+    &:focus {
+        cursor: pointer;
+        color: rgba(var(--clr-accent-1), 1);
+    }
+}
+
+
+.active {
+    color: rgba(var(--clr-accent-1), 1);
+    font-weight: (var(--fw-heavy));
+}

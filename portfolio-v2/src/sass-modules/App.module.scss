@@ -1,0 +1,10 @@
+.test {
+  color: rgba(var(--clr-accent-1), 1);
+}
+
+.background {
+  background-color: rgba(var(--clr-primary-1), 1);
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+}
